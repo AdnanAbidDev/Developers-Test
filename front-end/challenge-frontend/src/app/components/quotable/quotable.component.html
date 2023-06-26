@@ -1,0 +1,40 @@
+<button class="mtb primary-button text-color" (click)="getRandomQuote()">
+  Get A Random Quote
+</button>
+<div class="quote-container" *ngIf="randomQuote">
+  <p>{{ randomQuote.content }}</p>
+  <p>{{ randomQuote.author }}</p>
+</div>
+<button class="primary-button text-color" (click)="getEinsteinsQuotes()">
+  Get Albert Einsteins Quotes
+</button>
+<div *ngIf="this.einsteinsQuotes">
+  <div>
+    <h2>Short Quotes (less than 60)</h2>
+    <ng-container *ngFor="let einsteinsQuote of einsteinsQuotes">
+      <ng-container *ngIf="einsteinsQuote.length < 60">
+        <p class="quote-container">{{ einsteinsQuote.content }}</p>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <div>
+    <h2>Medium Quotes (greater than 60 and less than 80)</h2>
+    <ng-container *ngFor="let einsteinsQuote of einsteinsQuotes">
+      <ng-container
+        *ngIf="einsteinsQuote.length >= 60 && einsteinsQuote.length <= 80"
+      >
+        <p class="quote-container">{{ einsteinsQuote.content }}</p>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <div>
+    <h2>Long Quotes (greater than 80)</h2>
+    <ng-container *ngFor="let einsteinsQuote of einsteinsQuotes">
+      <ng-container *ngIf="einsteinsQuote.length > 80">
+        <p class="quote-container">{{ einsteinsQuote.content }}</p>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="table-container">
+  <div *ngFor="let shipper of shippers">
+    <button
+      (click)="toggleShipmentDetails(shipper.shipper_id)"
+      class="mtb primary-button text-color"
+    >
+      {{ shipper.shipper_name }}
+    </button>
+    <div *ngIf="shipmentDetailsVisible[shipper.shipper_id]">
+      <table class="shipment-table">
+        <tr>
+          <th>Shipment ID</th>
+          <td>{{ shipmentDetails[shipper.shipper_id].shipment_id }}</td>
+        </tr>
+        <tr>
+          <th>Shipper Name</th>
+          <td>{{ shipmentDetails[shipper.shipper_id].shipper_name }}</td>
+        </tr>
+        <tr>
+          <th>Carrier Name</th>
+          <td>{{ shipmentDetails[shipper.shipper_id].carrier_name }}</td>
+        </tr>
+        <tr>
+          <th>Shipment Description</th>
+          <td>
+            {{ shipmentDetails[shipper.shipper_id].shipment_description }}
+          </td>
+        </tr>
+        <tr>
+          <th>Shipment Weight</th>
+          <td>{{ shipmentDetails[shipper.shipper_id].shipment_weight }}</td>
+        </tr>
+        <tr>
+          <th>Shipment Rate Description</th>
+          <td>
+            {{ shipmentDetails[shipper.shipper_id].shipment_rate_description }}
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

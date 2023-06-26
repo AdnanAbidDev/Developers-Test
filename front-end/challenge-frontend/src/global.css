@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+/* fonts = arial normal, roboto headings */
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: #e9f1f1;
+}
+
+.background-color {
+  color: #e9f1f1;
+}
+.text-color {
+  color: #0c1313;
+}
+.primary-button {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  width: 250px;
+  display: block;
+  margin: auto;
+  background-color: #ab7878;
+}
+.secondary-button {
+  color: #ffffff;
+}
+.accent {
+  color: #744949;
+}
+/* flex */
+.flex {
+  display: flex;
+}
+.sapce-around {
+  justify-content: space-around;
+}
+/* font */
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+/* Margin */
+.mtb {
+  margin: 6px auto;
+}

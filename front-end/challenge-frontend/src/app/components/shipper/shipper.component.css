@@ -1,0 +1,32 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shipment-table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.shipment-table th,
+.shipment-table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.shipment-table th {
+  background-color: #f2f2f2;
+}
+
+.shipment-table th:first-child,
+.shipment-table td:first-child {
+  padding-left: 16px;
+}
+
+.shipment-table th:last-child,
+.shipment-table td:last-child {
+  padding-right: 16px;
+}
