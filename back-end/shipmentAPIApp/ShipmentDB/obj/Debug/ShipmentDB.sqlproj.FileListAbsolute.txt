@@ -1,0 +1,10 @@
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\bin\Debug\ShipmentDB.dacpac
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\bin\Debug\ShipmentDB.dll
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\bin\Debug\ShipmentDB.pdb
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\obj\Debug\ShipmentDB.sqlproj.AssemblyReference.cache
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\obj\Debug\Model.xml
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\obj\Debug\refactor.xml
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\obj\Debug\postdeploy.sql
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\obj\Debug\predeploy.sql
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\obj\Debug\ShipmentDB.dll
+C:\Users\DEll\source\repos\shipmentAPIApp\ShipmentDB\obj\Debug\ShipmentDB.pdb

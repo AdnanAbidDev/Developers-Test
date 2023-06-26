@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CARRIER] (Table)
+       [dbo].[SHIPMENT] (Table)
+       [dbo].[SHIPMENT_RATE] (Table)
+       [dbo].[SHIPPER] (Table)
+       [dbo].[Shipper_Shipment_Details] (Procedure)
+       [dbo].[spShipper_GetAll] (Procedure)
+
+** Supporting actions
